@@ -2,6 +2,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import { extendTheme } from "@chakra-ui/react";
 import SmartShop from "./SmartShop";
 
+
 const theme = extendTheme({
   colors: {
     brand: {
