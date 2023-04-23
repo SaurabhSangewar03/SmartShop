@@ -1,8 +1,14 @@
+import alexa from "./Assets/images/alexa.webp"
+import console from "./Assets/images/console.webp"
+import shoes from "./Assets/images/shoes.webp"
+import laptop from "./Assets/images/laptop.webp"
+import smartphone from "./Assets/images/smartphone.webp"
+import headphone from "./Assets/images/headphone.webp"
 const products = [
   {
     id: 1,
     name: "Alexa",
-    image: "./Assets/images/alexa.webp",
+    image: alexa,
     brand: "Amazon",
     category: "Smart Home",
     description: 'Meet Echo Dot - Our most popular smart speaker with Alexa. The sleek, compact design delivers crisp vocals and balanced bass for full sound.',
@@ -14,7 +20,7 @@ const products = [
   {
     id: 2,
     name: "Gaming Console",
-    image: "./Assets/images/console.webp",
+    image: console,
     brand: "Sony",
     category: "Gaming",
     description: 'Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.',
@@ -26,7 +32,7 @@ const products = [
   {
     id: 3,
     name: "Shoes",
-    image: "./Assets/images/shoes.webp",
+    image: shoes,
     brand: "Nike",
     category: "Footwear",
     description: 'The Nike Air Zoom Pegasus 38 returns with the same reliable cushioning and a breathable mesh upper. New to the shoe is an even more comfortable tongue and a slight increase in the forefoot stack height.',
@@ -38,7 +44,7 @@ const products = [
   {
     id: 4,
     name: "Laptop",
-    image: "./Assets/images/laptop.webp",
+    image: laptop,
     brand: "Dell",
     category: "Computers",
     description: 'The MacBook Air is back with a vengeance, with the new M1 chip delivering performance gains that make it a viable alternative to the MacBook Pro. With its sleek, lightweight design and Retina display, it\'s perfect for on-the-go productivity.',
@@ -50,7 +56,7 @@ const products = [
   {
     id: 5,
     name: "Smartphone",
-    image: "./Assets/images/smartphone.webp",
+    image: smartphone,
     brand: "Apple",
     category: "Phones",
     description:
@@ -63,7 +69,7 @@ const products = [
   {
     id: 6,
     name: "Headphone",
-    image: "./Assets/images/headphone.webp",
+    image: headphone,
     brand: "Bose",
     category: "Audio",
     description:

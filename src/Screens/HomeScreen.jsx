@@ -1,6 +1,7 @@
 import React from "react";
 import product from "../product";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex, Heading, } from "@chakra-ui/react";
+import Products from "../Components/Product/Products";
 
 const HomeScreen = () => {
   return (
@@ -8,10 +9,7 @@ const HomeScreen = () => {
     <Heading textAlign={"center"} mt={4}>Latest Product</Heading>
       <Flex justify={"space-around"} flexWrap={"wrap"} gap={1} p={6}>
         {product.map((product, index) => (
-          <Flex key={index} width={"300px"} direction={"column"} align={"center"}>
-            <Heading>{product.name}</Heading>
-            <Text>{product.description}</Text>
-          </Flex>
+          <Products product={product}/>
         ))}
       </Flex>
     </>
